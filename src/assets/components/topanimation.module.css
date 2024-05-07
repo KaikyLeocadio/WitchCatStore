@@ -1,0 +1,131 @@
+.divanimacao {
+    position: relative;
+    width: 100%;
+    height: 6vh;
+    background: linear-gradient(180deg, rgba(64, 35, 101, 1) 1%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@font-face {
+    font-family: 'MidnightMinutes';
+    src: url('../MidnightMinutes_DEMO.otf');
+}
+
+.divanimacao img {
+    width: auto;
+    height: 4vh;
+    object-fit: contain;
+    opacity: 0; /* Todas as imagens começam invisíveis */
+    transition: opacity 0.5s ease; /* Transição suave de opacidade */
+}
+
+.divanimacao:hover img {
+    opacity: 1; /* Ao passar o mouse sobre a div, as imagens ficam visíveis */
+}
+
+/*TEMPOS*/
+.divanimacao img:nth-child(1) {
+    transition-delay: 1.6s; /* Primeira imagem inicia imediatamente */
+}
+
+.divanimacao img:nth-child(2) {
+    transition-delay: 1.5s; /* Segunda imagem inicia após 0.5 segundos */
+}
+
+.divanimacao img:nth-child(3) {
+    transition-delay: 1.4s; /* Terceira imagem inicia após 1 segundo */
+}
+
+.divanimacao img:nth-child(4) {
+    transition-delay: 1.3s; /* Terceira imagem inicia após 1 segundo */
+}
+
+.divanimacao img:nth-child(5) {
+    transition-delay: 1.2s; /* Terceira imagem inicia após 1 segundo */
+}
+
+.divanimacao img:nth-child(6) {
+    transition-delay: 1.1s; /* Terceira imagem inicia após 1 segundo */
+}
+
+.divanimacao img:nth-child(7) {
+    transition-delay: 1s; /* Terceira imagem inicia após 1 segundo */
+}
+
+.divanimacao img:nth-child(8) {
+    transition-delay: 0.9s; /* Terceira imagem inicia após 1 segundo */
+}
+
+.divanimacao img:nth-child(9) {
+    transition-delay: 0.8s; /* Terceira imagem inicia após 1 segundo */
+}
+
+.divanimacao img:nth-child(10) {
+    transition-delay: 0.7s; /* Terceira imagem inicia após 1 segundo */
+}
+
+.divanimacao img:nth-child(11) {
+    transition-delay: 0.6s; /* Terceira imagem inicia após 1 segundo */
+}
+
+.divanimacao img:nth-child(12) {
+    transition-delay: 0.5s; /* Terceira imagem inicia após 1 segundo */
+}
+
+.divanimacao p + img
+
+.divanimacao img:nth-of-type(13) {
+    transition-delay: 0.5s; /* Primeira imagem inicia após 3 segundos */
+}
+
+.divanimacao img:nth-of-type(14) {
+    transition-delay: 0.6s; /* Segunda imagem inicia após 2 segundos */
+}
+
+.divanimacao img:nth-of-type(15) {
+    transition-delay: 0.7s;
+}
+
+.divanimacao img:nth-of-type(16) {
+    transition-delay: 0.8s;
+}
+
+.divanimacao img:nth-of-type(17) {
+    transition-delay: 0.9s;
+}
+
+.divanimacao img:nth-of-type(18) {
+    transition-delay: 1s;
+}
+
+.divanimacao img:nth-of-type(19) {
+    transition-delay: 1.1s;
+}
+
+.divanimacao img:nth-of-type(20) {
+    transition-delay: 1.2s;
+}
+
+.divanimacao img:nth-of-type(21) {
+    transition-delay: 1.3s;
+}
+
+.divanimacao img:nth-of-type(22) {
+    transition-delay: 1.4s;
+}
+
+.divanimacao img:nth-of-type(23) {
+    transition-delay: 1.5s;
+}
+
+.divanimacao img:nth-of-type(24) {
+    transition-delay: 1.6s;
+}
+
+.divanimacao img:nth-of-type(25) {
+    transition-delay: 1.7s;
+}

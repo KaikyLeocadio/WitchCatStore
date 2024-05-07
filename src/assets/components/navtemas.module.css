@@ -1,0 +1,27 @@
+.temas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: rgba(64,35,101,1);
+  }
+  
+  .temas button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ff6600;
+    background-color: #ff66001e;
+    border: #ff6600 2px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px 10px;
+    transition: 0.5s;
+  }
+  
+  .temas button:hover {
+    color: #6f00ff;
+    background-color: #40236518;
+    border-color: #6f00ff;
+  }
+  

@@ -1,0 +1,110 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    background-color: #402365;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  header img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .navtop {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .navtop input{
+   position: relative;
+   width: 80%;
+   height: 3vh;
+   border-radius: 8px;
+   padding-left: 5px;
+   max-width: 100%;
+  }
+
+  .navtop input::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+  }
+  
+  .navtop button img{
+    width: 100%;
+    height: 2vh;
+    user-select: none;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+  }
+
+  .navtop button{
+    margin-top: 2.5px;
+    width: 5%;
+    height: 3vh;
+    margin-left: -25%;
+    z-index: 1;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .navtop button:hover{
+    background-color: #ff55006e;
+    transition: 0.5s;
+    cursor: pointer;
+    border: #402365 1.5px solid;
+  }
+
+  .navtop button:not(:hover){
+    transition: 0.5s;
+    background-color: #ff6600;
+    border: #402365 1.5px solid;
+  }
+
+  header ul{
+    display: flex;
+    list-style-type: none;
+  }
+
+  header li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+  }
+
+  header li a{
+    text-decoration: none;
+    color: #ff6600;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  header li a:hover{
+    transition: 0.5s;
+    background-color: #00000037;
+    border-radius: 9px;
+  }
+
+  header li a:not(:hover){
+    transition: 0.5s;
+  }
+
+  header li hr{
+    height: 2vh;
+    border: #ff6600 solid 0.1px;
+  }

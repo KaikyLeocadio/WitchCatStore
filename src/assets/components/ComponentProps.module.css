@@ -1,0 +1,27 @@
+.textoprops{
+    width: 100%;
+    height: 120px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-family: "MidnightMinutes", sans-serif;
+    font-weight: 500;
+    font-style: inherit;
+    font-size: 3rem;
+    color: white;
+
+    background:rgba(64,35,101,1);
+}
+
+.alinhaprops{
+    display: flex;
+    flex-direction: column;
+}
+
+.alinhacards{
+    display: flex;
+    flex-direction: row;
+}

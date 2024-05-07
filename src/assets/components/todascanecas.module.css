@@ -1,0 +1,53 @@
+.test{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: rgba(219, 219, 219, 0.358);
+    flex-wrap: wrap; /* Permitir que os itens quebrem em linhas */
+    justify-content: space-evenly; /* Distribuir itens igualmente ao longo da linha */
+}
+
+.mugs{
+    position: relative;
+    margin: 10px;
+    width: calc(17% - 20px);
+    height: 360px;
+    background-color: bisque; /*REMOVER*/
+    display: flex;
+    flex-direction: column;
+}
+
+.mugs:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    box-shadow: 0 8px 16px rgba(64,35,101,1);
+}
+
+.mugs:not(:hover){
+    transition: 0.2s;
+}
+
+.mugs img{
+    width: 100%;
+    height: 60%;
+}
+
+.cardcaneca{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardcaneca h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.cardcaneca span{
+    color: #ff6600;
+}
